@@ -1,8 +1,3 @@
-Things to do next:
-Divid page into sections
-Make Divs for each
-Style the divs as need be
+Credit to Grace and their google-homepage as it provided a lot of useful information
 
-
-Use Nav element for links at header and footer
-Do not set positions using absolute values
+Work on footer needed, the page is coming together well
