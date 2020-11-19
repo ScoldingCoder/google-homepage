@@ -12,6 +12,12 @@ float:right;
 }
 
 
+.left{
+  float:left;
+ 
+}
+
+
 .share{
   background-color: #003333;
   opacity:0.85; 
@@ -68,18 +74,36 @@ color: #202124;
 .upper_footer{
 
   border-style: solid;
-  border-width: 1px;
+  border-width: 0.5px;
   height:40px;
-  border-color:black;
+  padding-bottom:5px;
+  padding-left: 50px;
+  background-color:#f2f2f2;
+  border-top: 1px solid #dadce0;
+  border-bottom: 1px solid #dadce0;
+  border-left:none;
+  border-right:none;
+  color: rgba(0,0,0,.54);
+  font-size:14px;
+  font-family: arial,sans-serif;
+
 }
 
 
 .lower_footer{
-
   border-style: solid;
-  border-width: 1px;
+  border-width: 0.5px;
   height:40px;
-  border-color:black;
+  padding-bottom:5px;
+  background-color:#f2f2f2;
+  border-top:none;
+  border-bottom:none;
+  border-left:none;
+  border-right:none;
+  font-size:14px;
+  font-family: arial,sans-serif;
+  
+  
 }
 
 .mag{
@@ -103,16 +127,6 @@ color: #202124;
 
 
 
-.header_text{
-  border-style: solid;
-  float:left;
-  border-width: 1px;
-  width:150px;
-  height:50px;
-  border-color:transparent;
- 
-}
-
 a.h_text{
   font-size:13px;
   color:rgba(0,0,0,0.87);
@@ -120,6 +134,31 @@ a.h_text{
  
 
 }
+
+.f_text:link{
+  font-size:14px;
+  color:rgba(0,0,0,.54);
+  font-family: arial, sans-serif;
+  text-decoration:none;
+  
+}
+
+.f_text:hover{
+  font-size:14px;
+  color:rgba(0,0,0,.54);
+  font-family: arial, sans-serif;
+  text-decoration:underline;
+}
+
+
+.f_text:visited{
+  font-size:14px;
+  color:rgba(0,0,0,.54);
+  font-family: arial, sans-serif;
+  text-decoration:none;
+}
+
+
 
 .share:hover{
  opacity: 1;
@@ -145,23 +184,6 @@ a.material-icons{
   
 
 }
-
-.up_text {
-  text-align:center;
-}
-
-.low_text {
-  text-align:center;
-}
-
-
-
-.search_text {
-  text-align:center;
- 
-}
-
-
 
 
 .search{
@@ -189,14 +211,21 @@ margin-bottom: 20px;
 material-icons:hover{
   color:#202124;
   text-decoration:none;
+
+
+ 
+  
   
 
 }
 
-a:link{
+.h_text:link{
   
   color: black;
   text-decoration:none;
+
+
+  
 
 
 }
@@ -206,8 +235,30 @@ a:link{
 
 }
 
-a:visited{
+a.material-icons:visited{
   color:black;
+  text-decoration:none;
+
+}
+
+
+a.lang{
+  color:blue;
+  text-decoration:none;
+  margin-right:7px;
+  
+
+}
+
+a.lang:hover{
+
+  color:blue;
+  text-decoration:underline;
+
+}
+
+a.lang:visited{
+  color:blue;
   text-decoration:none;
 
 }
@@ -226,6 +277,7 @@ a:visited{
   word-wrap: normal;
   direction: ltr;
   -moz-background-inline-policy: 'liga';
+  text-decoration:none;
 }
 
 
